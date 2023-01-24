@@ -85,6 +85,7 @@ class NTPClient {
     int getHours() const;
     int getMinutes() const;
     int getSeconds() const;
+    int getTimeOffset();
 
     /**
      * Changes the time offset. Useful for changing timezones dynamically
